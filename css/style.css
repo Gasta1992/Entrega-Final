@@ -283,30 +283,105 @@ body {
 /* ---------------------------------------------------FOOTER-------------------------------------------------- */
 
 .footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
     grid-area: footer;
 }
 
-.footer nav div div ul {
+.footer ul {
     display: flex;
     list-style: none;
     font-size: small;
-    margin-bottom: -10px;
 }
 
-.footer nav div div ul li {
+.footer ul li {
     margin-left: 15px;
+    font-size: small;
+    margin-top: 50px;
+
 }
 
-.footer nav div div ul li a {
+.footer ul li a {
     text-decoration: none;
     color: black;
 }
 
-.redes-sociales>a>img {
-    width: 30px;
-    height: 30px;
-}
-
 .redes-sociales a img:hover {
     transform: scale(1.15, 1.15);
+}
+
+.footer a img {
+    width: 100px;
+    height: 50px;
+    align-items: center;
+}
+
+.footer div img {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+/*-------------------------------------------------------@MEDIA QUERIES-------------------------------------------------*/
+
+/*----------FOOTER----------*/
+/* tablet */
+
+@media screen and (max-width:768px) {
+
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer ul {
+        font-size: small;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer a img {
+        width: 100px;
+        height: 50px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer div img {
+        width: 20px;
+        height: 20px;
+    }
+
+}
+
+/* mobile */
+@media screen and (max-width:576px) {
+
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer ul {
+        font-size: x-small;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer a img {
+        width: 100px;
+        height: 50px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer div img {
+        width: 20px;
+        height: 20px;
+
+    }
 }
