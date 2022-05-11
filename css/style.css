@@ -323,6 +323,7 @@ body {
     height: 25px;
     margin-right: 5px;
 }
+
 /*-------------------------------------------------------@MEDIA QUERIES-------------------------------------------------*/
 
 /*----------FOOTER----------*/
@@ -357,7 +358,19 @@ body {
 }
 
 /* mobile */
-@media screen and (max-width:576px) {
+@media screen and (max-width:480px) {
+
+    .hero {
+        font-size: smaller;
+    }
+
+    .hero>img {
+        width: 200px;
+        height: 200px;
+    }
+
+
+
 
     .footer {
         flex-direction: column;
