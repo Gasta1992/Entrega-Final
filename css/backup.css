@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    background-image: url(../images/fondo.jpg);
+}
+
+.grid-containter {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr auto 05fr;
+    gap: 4px 0px;
+    grid-template-areas:
+        "header header"
+        "main main"
+        "footer footer";
+}
+
+
+/* ------------------------------------------------INDEX------------------------------------------------ */
+
+/* ---------------HEADER------------- */
+
+.header nav {
+    background-image: url(../images/LOG-29.png);
+}
+
+.logosym {
+    width: 100px;
+    height: 50px;
+}
+
+
+/* ---------------MAIN------------- */
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-image: url("../images/LOG-29.png");
+    width: fit-content;
+}
+
+.hero>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero>img {
+    width: 300px;
+    height: 300px;
+}
+
+.titulo_parrafo>h1 {
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    justify-content: left;
+    color: white;
+
+    animation-duration: 3s;
+}
+
+.titulo_parrafo>h2 {
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    justify-content: left;
+}
+
+/*----- Servicios ------ */
+
+.servicios {
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+
+}
+
+.servicios>h2 {
+    display: flex;
+    width: 100%;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 45px;
+}
+
+/*----- Porfolio ------ */
+.portfolio {
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.portfolio>h2 {
+    text-align: center;
+    color: black;
+    padding-top: 6px;
+    font-size: 45px;
+}
+
+.portfolio>div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.portfolio div div img {
+    width: 300px;
+    height: 300px;
+
+}
+
+.portfolio div div {
+    width: 300px;
+    text-align: center;
+}
+
+.portfolio a {
+    -webkit-text-stroke: 2px black;
+    color: transparent;
+    text-decoration: none;
+    font-size: 33px;
+}
+
+/*----- Main------ */
+
+.estudio {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin: 5px;
+}
+
+.estudio>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.estatua {
+    display: flex;
+    margin: 5px;
+    flex-direction: row-reverse;
+}
+
+.greek>h1 {
+    display: flex;
+    justify-content: center;
+    border: solid;
+    margin: 5px;
+}
+
+.greek>h2 {
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    justify-content: left;
+}
+
+.greek>p {
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    justify-content: left;
+}
+
+/*----- recursos ------ */
+.recursos-digitales {
+    display: flex;
+    margin: 5px;
+    margin-top: 15px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    color: black;
+}
+
+.recursos-digitales>ul {
+    margin: 20px;
+}
+
+.herramientas {
+    font-size: 20px;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.recursos-digitales>ul {
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+
+/* ------------------------------------------------PORTFOLIO------------------------------------------------ */
+
+.portfolio-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+
+}
+
+.portfolio-pro>h1 {
+    text-align: center;
+    color: white;
+    border: solid;
+    width: 100%;
+    margin-top: 20px;
+    background-image: url(../images/LOG-31.png);
+
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px 10px;
+    text-align: center;
+}
+
+.gallery-container img {
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+
+/*--------------------------------------------------------- SERVICIOS-------------------------------------------------- *
+
+
+ /*----- Main------ */
+
+.servicios-digitales>h1 {
+    text-align: center;
+    width: 100%;
+    border: solid;
+    margin-top: 20px;
+}
+
+.servicios-digitales>h2 {
+    margin: 20px;
+}
+
+.servicios-digitales>p {
+    margin: 20px;
+}
+
+.diseño-grafico {
+    margin: 20px;
+}
+
+.diseño-grafico-arte {
+    display: flex;
+    justify-content: end;
+}
+
+.diseño-grafico-arte>p {
+    display: flex;
+    justify-content: end;
+}
+
+
+/* ---------------------------------------------------FOOTER-------------------------------------------------- */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    grid-area: footer;
+}
+
+.footer ul {
+    display: flex;
+    list-style: none;
+    font-size: small;
+}
+
+.footer ul li {
+    margin-left: 15px;
+    font-size: small;
+    margin-top: 50px;
+
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.redes-sociales a img:hover {
+    transform: scale(1.15, 1.15);
+}
+
+.footer a img {
+    width: 100px;
+    height: 50px;
+    align-items: center;
+}
+
+.footer div img {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+/*-------------------------------------------------------@MEDIA QUERIES-------------------------------------------------*/
+
+/*----------FOOTER----------*/
+/* tablet */
+
+@media screen and (max-width:768px) {
+
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer ul {
+        font-size: small;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer a img {
+        width: 100px;
+        height: 50px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer div img {
+        width: 20px;
+        height: 20px;
+    }
+
+}
+
+/* mobile */
+@media screen and (max-width:480px) {
+
+    .hero {
+        font-size: smaller;
+    }
+
+    .hero>img {
+        width: 200px;
+        height: 200px;
+    }
+
+
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer ul {
+        font-size: x-small;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer a img {
+        width: 100px;
+        height: 50px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer div img {
+        width: 20px;
+        height: 20px;
+
+    }
+}

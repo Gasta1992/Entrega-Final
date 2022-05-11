@@ -20,19 +20,20 @@ body {
         "footer footer";
 }
 
-
 /* ------------------------------------------------INDEX------------------------------------------------ */
 
 /* ---------------HEADER------------- */
 
-.header nav {
+header {
     background-image: url(../images/LOG-29.png);
 }
 
-.logosym {
+header nav div a img {
     width: 100px;
     height: 50px;
 }
+
+/*# sourceMappingURL=style.css.map */
 
 
 /* ---------------MAIN------------- */
@@ -368,8 +369,6 @@ body {
         width: 200px;
         height: 200px;
     }
-
-
 
 
     .footer {
