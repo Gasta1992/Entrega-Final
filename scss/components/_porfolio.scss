@@ -1,0 +1,37 @@
+/* ------------------------------------------------PORTFOLIO------------------------------------------------ */
+.portfolio-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+
+    section {
+        h1 {
+            text-align: center;
+            color: white;
+            border: solid;
+            width: 100%;
+            margin-top: 20px;
+            background-image: url(../images/LOG-31.png);
+        }
+
+        .gallery-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            gap: 10px 10px;
+            text-align: center;
+
+            div {
+                img {
+                    padding: 20px;
+                    width: 300px;
+                    height: 300px;
+
+                }
+            }
+        }
+
+    }
+
+}

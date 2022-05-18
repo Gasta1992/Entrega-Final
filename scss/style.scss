@@ -1,13 +1,7 @@
-header{
-    background-image: url(../images/LOG-29.png);
-    nav{
-        div{
-            a{
-                img{
-                    width: 100px;
-                    height: 50px;
-                }
-            }
-        }
-    }
-}
+@import '../scss/base/estilosgenerales';
+@import '../scss/components/header';
+@import '../scss/components/main';
+@import '../scss/components/nosotros';
+@import '../scss/components/porfolio';
+@import '../scss/components/servicios';
+@import '../scss/components/footer';

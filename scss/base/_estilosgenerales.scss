@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    background-image: url(../images/fondo.jpg);
+}
+
+.grid-containter {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr auto 05fr;
+    gap: 4px 0px;
+    grid-template-areas:
+        "header header"
+        "main main"
+        "footer footer";
+}
+
+

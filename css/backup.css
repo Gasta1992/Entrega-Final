@@ -54,7 +54,7 @@ body {
 .hero>img {
     width: 300px;
     height: 300px;
-}
+} 
 
 .titulo_parrafo>h1 {
     display: flex;
@@ -62,7 +62,6 @@ body {
     padding: 15px;
     justify-content: left;
     color: white;
-
     animation-duration: 3s;
 }
 
@@ -139,7 +138,7 @@ body {
     font-size: 33px;
 }
 
-/*----- Main------ */
+/*----- --------------Nosotros------ */
 
 .estudio {
     display: flex;

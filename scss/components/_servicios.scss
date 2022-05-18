@@ -1,0 +1,51 @@
+/* ------------------------------------------------SERVICIOS------------------------------------------------ */
+
+.servicios-digitales {
+    h1 {
+        text-align: center;
+        width: 100%;
+        border: solid;
+        margin-top: 20px;
+    }
+
+    h2 {
+        margin: 20px;
+    }
+
+    p {
+        margin: 20px;
+    }
+}
+
+.diseño-grafico {
+    margin: 20px;
+
+    h2 {
+        display: flex;
+        justify-content: end;
+    }
+
+    ul {
+        display: flex;
+        justify-content: end;
+
+        li {
+            list-style: circle;
+        }
+    }
+
+    .diseño-grafico-arte {
+
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+
+
+}
+
+.diseño-grafico-web {
+
+    flex-direction: column-reverse;
+
+}

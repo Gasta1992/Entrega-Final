@@ -1,0 +1,50 @@
+/* ------------------------FOOTER------------------ */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    grid-area: footer;
+    a {
+        img {
+            width: 100px;
+            height: 50px;
+            align-items: center;
+        }
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+        font-size: small;
+
+        li {
+            margin-left: 15px;
+            font-size: small;
+            margin-top: 50px;
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+
+        }
+    }
+
+
+
+    div {
+        a {
+            img {
+                width: 25px;
+                height: 25px;
+                margin-right: 5px;
+                &:hover{
+                    transform: scale(1.15, 1.15);
+                }
+            }
+        }
+    }
+
+}
