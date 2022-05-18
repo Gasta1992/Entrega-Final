@@ -1,11 +1,10 @@
 /* ------------------------FOOTER------------------ */
 
 .footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    @extend %flex;
     margin-top: 50px;
     grid-area: footer;
+
     a {
         img {
             width: 100px;
@@ -26,12 +25,11 @@
 
             a {
                 text-decoration: none;
-                color: black;
+
             }
 
         }
     }
-
 
 
     div {
@@ -40,7 +38,8 @@
                 width: 25px;
                 height: 25px;
                 margin-right: 5px;
-                &:hover{
+
+                &:hover {
                     transform: scale(1.15, 1.15);
                 }
             }

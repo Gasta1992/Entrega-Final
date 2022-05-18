@@ -1,15 +1,18 @@
 /* ------------------------------------------------PORTFOLIO------------------------------------------------ */
+
+
+
 .portfolio-main {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: black;
+    
 
     section {
         h1 {
             text-align: center;
             color: white;
-            border: solid;
+            border: map-get($titulo, border);
             width: 100%;
             margin-top: 20px;
             background-image: url(../images/LOG-31.png);
