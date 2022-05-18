@@ -16,7 +16,7 @@
             align-items: center;
             margin: 5px;
             color: white;
-            border: map-get($titulo, border);
+            border: map-get($titulo , borde );
             width: 100%;
             margin-top: 20px;
             background-image: url(../images/LOG-31.png);
