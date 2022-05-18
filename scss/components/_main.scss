@@ -45,7 +45,9 @@
 
 
     h2 {
-        @include flex(flex, center, center);
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 100%;
         margin: 5px;
         text-align: center;
@@ -65,7 +67,9 @@
 
 /*----- Porfolio ------ */
 .portfolio {
-    @include flex(flex, center, center);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 5px;
     flex-direction: column;
     margin-top: 100px;
