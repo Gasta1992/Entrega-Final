@@ -3,16 +3,14 @@
 
 
 .portfolio-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex(flex, center, center);
     
 
     section {
         h1 {
             text-align: center;
             color: white;
-            border: black;
+            border: map-get($titulo , borde);
             width: 100%;
             margin-top: 20px;
             background-image: url(../images/LOG-31.png);

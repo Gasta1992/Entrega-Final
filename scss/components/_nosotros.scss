@@ -11,12 +11,10 @@
         flex-direction: column;
 
         h1 {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @include flex(flex, center, center);
             margin: 5px;
             color: white;
-            border: map-get($titulo , borde );
+            border: map-get($titulo , borde);
             width: 100%;
             margin-top: 20px;
             background-image: url(../images/LOG-31.png);
