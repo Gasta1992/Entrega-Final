@@ -1,11 +1,18 @@
 /* ------------------------------------------------SERVICIOS------------------------------------------------ */
+/* @import '../scss/base/mapas';
+@import '../scss/base/mixin'; */
 
 
 .servicios-digitales {
     h1 {
+        /*   @include flex (flex, center, center); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
         text-align: center;
-        color: white;
+        /*         border: map-get(titulo,borde ); */
         border: 2px black solid;
+        color: white;
         width: 100%;
         margin-top: 20px;
         background-image: url(../images/LOG-31.png);

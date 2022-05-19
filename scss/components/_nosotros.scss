@@ -1,5 +1,5 @@
 /*----- Nosotros------ */
-
+/* @import '../scss/base/mapas';*/
 
 .estudio {
     @extend %flex;
@@ -16,6 +16,7 @@
             align-items: center;
             margin: 5px;
             color: white;
+            /*         border: map-get(titulo,borde ); */
             border: 2px solid black;
             width: 100%;
             margin-top: 20px;
