@@ -1,5 +1,5 @@
 /* --------------------------MAIN------------------------ */
-/*@import '../scss/base/mixin'; */
+@import '../base/mixin';
 
 .hero {
     @extend %flex;
@@ -45,7 +45,7 @@
 
 
     h2 {
-           /*   @include flex (flex, center, center); */
+        @include flex (flex, center, center);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -68,7 +68,7 @@
 
 /*----- Porfolio ------ */
 .portfolio {
-       /*   @include flex (flex, center, center); */
+    @include flex (flex, center, center);
     display: flex;
     justify-content: center;
     align-items: center;

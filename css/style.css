@@ -26,7 +26,6 @@ body {
 }
 
 /* --------------------------MAIN------------------------ */
-/*@import '../scss/base/mixin'; */
 .hero {
   flex-direction: row-reverse;
   background-image: url("../images/LOG-29.png");
@@ -62,7 +61,9 @@ body {
   flex-direction: column;
 }
 .servicios h2 {
-  /*   @include flex (flex, center, center); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,7 +81,9 @@ body {
 
 /*----- Porfolio ------ */
 .portfolio {
-  /*   @include flex (flex, center, center); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -144,7 +147,6 @@ body {
 }
 
 /*----- Nosotros------ */
-/* @import '../scss/base/mapas';*/
 .estudio {
   flex-direction: row-reverse;
   margin: 5px;
@@ -159,7 +161,7 @@ body {
   align-items: center;
   margin: 5px;
   color: white;
-  /*         border: map-get(titulo,borde ); */
+  border: 2px solid black;
   border: 2px solid black;
   width: 100%;
   margin-top: 20px;
@@ -206,10 +208,10 @@ body {
 }
 
 /* ------------------------------------------------PORTFOLIO------------------------------------------------ */
-/* @import '../scss/base/mapas';
-@import '../scss/base/mixin'; */
 .portfolio-main {
-  /*   @include flex (flex, center, center); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -217,7 +219,7 @@ body {
 .portfolio-main section h1 {
   text-align: center;
   color: white;
-  /*         border: map-get(titulo,borde ); */
+  border: 2px solid black;
   border: 2px black solid;
   width: 100%;
   margin-top: 20px;
@@ -237,15 +239,15 @@ body {
 }
 
 /* ------------------------------------------------SERVICIOS------------------------------------------------ */
-/* @import '../scss/base/mapas';
-@import '../scss/base/mixin'; */
 .servicios-digitales h1 {
-  /*   @include flex (flex, center, center); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  /*         border: map-get(titulo,borde ); */
+  border: 2px solid black;
   border: 2px black solid;
   color: white;
   width: 100%;
@@ -304,6 +306,7 @@ body {
 }
 .footer ul li a {
   text-decoration: none;
+  color: black;
 }
 .footer div a img {
   width: 25px;
@@ -319,8 +322,5 @@ body {
   justify-content: space-around;
   align-items: center;
 }
-
-/* @import '../scss/base/mapas';
-@import '../scss/base/mixin'; */
 
 /*# sourceMappingURL=style.css.map */

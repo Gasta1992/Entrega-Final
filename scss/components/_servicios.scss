@@ -1,16 +1,16 @@
 /* ------------------------------------------------SERVICIOS------------------------------------------------ */
-/* @import '../scss/base/mapas';
-@import '../scss/base/mixin'; */
+@import '../base/mapas';
+@import '../base/mixin';
 
 
 .servicios-digitales {
     h1 {
-        /*   @include flex (flex, center, center); */
+        @include flex (flex, center, center);
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
-        /*         border: map-get(titulo,borde ); */
+        border: map-get($titulo,borde );
         border: 2px black solid;
         color: white;
         width: 100%;
