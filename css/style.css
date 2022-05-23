@@ -307,37 +307,40 @@ body {
 }
 
 /* ------------------------CONTACTO-------------------- */
-body {
+.formulario {
+  background-image: none;
+}
+.formulario .formulario-contacto {
   min-height: 100vh;
   width: 100%;
   display: flex;
 }
-body .form {
+.formulario .form {
   width: 90%;
   max-width: 400px;
   border-radius: 1em;
   padding: 3.5em 1.5em;
   margin: auto;
 }
-body .form div {
+.formulario .form div {
   width: 100%;
   display: grid;
   gap: 1em;
   grid-auto-columns: 100%;
 }
-body .form div h2 {
+.formulario .form div h2 {
   text-align: center;
 }
-body .form div input {
+.formulario .form div input {
   font-size: 16px;
   padding: 5px 7px;
 }
-body .form div textarea {
+.formulario .form div textarea {
   font-size: 16px;
   padding: 5px 7px;
   resize: none;
 }
-body .form div .form-enviar {
+.formulario .form div .form-enviar {
   background-color: #089FE0;
   color: #fff;
   border: none;
