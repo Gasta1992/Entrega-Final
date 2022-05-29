@@ -1,12 +1,13 @@
-@import '../scss/base/estilosgenerales';
-@import '../scss/components/header';
-@import '../scss/components/main';
-@import '../scss/components/nosotros';
-@import '../scss/components/porfolio';
-@import '../scss/components/servicios';
-@import '../scss/components/contacto';
-@import '../scss/components/footer';
-@import '../scss/base/extends';
-@import '../scss/base/mapas';
-@import '../scss/base/mixin';
+@import './base/estilosgenerales';
+@import './components/header';
+@import './components/main';
+@import './components/nosotros';
+@import './components/porfolio';
+@import './components/servicios';
+@import './components/contacto';
+@import './components/footer';
+@import './base/extends';
+@import './base/mapas';
+@import './base/mixin';
+@import './components/mediaq';
 
