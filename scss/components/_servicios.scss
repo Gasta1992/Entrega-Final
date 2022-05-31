@@ -1,6 +1,7 @@
 /* ------------------------------------------------SERVICIOS------------------------------------------------ */
 @import '../base/mapas';
 @import '../base/mixin';
+@import './mediaq';
 
 
 .servicios-digitales {
@@ -16,6 +17,9 @@
         width: 100%;
         margin-top: 20px;
         background-image: url(../images/LOG-31.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     }
 
     h2 {

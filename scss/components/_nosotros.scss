@@ -1,5 +1,6 @@
 /*----- Nosotros------ */
 @import '../base/mapas';
+@import './mediaq';
 
 .estudio {
     @extend %flex;
@@ -14,13 +15,16 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            margin: 5px;
+            margin-right:5px;
             color: white;
-            border: map-get($titulo,borde );
+            border: map-get($titulo, borde);
             border: 2px solid black;
             width: 100%;
             margin-top: 20px;
             background-image: url(../images/LOG-31.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
         }
 
         h2 {
@@ -37,6 +41,7 @@
             padding: 5px;
             margin: 5px;
             justify-content: left;
+
         }
 
         .estatua {
@@ -56,11 +61,19 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: left;
+    width: 100%;
+    padding: 5px;
+
+
 
     div {
-        font-size: 20px;
         margin-top: 20px;
-        text-decoration: underline;
+        text-decoration: none;
+        display: flex;
+        width: 100%;
+        padding: 5px;
+        margin: 5px;
+        justify-content: left;
     }
 
     ul {

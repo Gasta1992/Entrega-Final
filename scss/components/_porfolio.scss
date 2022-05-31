@@ -1,6 +1,7 @@
 /* ------------------------------------------------PORTFOLIO------------------------------------------------ */
 @import '../base/mapas';
 @import '../base/mixin';
+@import './mediaq';
 
 .portfolio-main {
 
@@ -8,8 +9,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 
     section {
         h1 {
@@ -19,7 +18,12 @@
             border: 2px black solid;
             width: 100%;
             margin-top: 20px;
+            margin: 5px;
+            padding: 5px;
             background-image: url(../images/LOG-31.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
         }
 
         .gallery-container {
